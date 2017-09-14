@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <ImageView
+            android:id="@+id/iv_userhead_other"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+			android:background="@drawable/robot_icon"
+            android:scaleType="fitXY" />
+
+        <LinearLayout 
+            android:background="@drawable/chatfrom_bg"
+            android:layout_marginRight="@dimen/margin_chat_activity"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toRightOf="@id/iv_userhead_other"
+            android:orientation="vertical"
+            android:minHeight="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_bot_tip"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="#222222"
+                android:text="@string/bot_tip"
+                android:textSize="15sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_1"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_1"
+                android:textSize="13sp" />
+
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_2"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_2"
+                android:textSize="13sp" />
+
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_3"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_3"
+                android:textSize="13sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_4"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_4"
+                android:textSize="13sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_5"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_5"
+                android:textSize="13sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_6"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_6"
+                android:textSize="13sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_7"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_7"
+                android:textSize="13sp" />
+            <TextView
+                android:maxWidth="210.0dip"
+                android:gravity="left|center"
+                android:id="@+id/tv_tip_8"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="@dimen/margin_chat_activity"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:lineSpacingExtra="2dp"
+                android:textColor="@color/tip_color"
+                android:text="@string/tip_8"
+                android:textSize="13sp" />
+            
+        </LinearLayout>
+       
+    </RelativeLayout>
+
+</LinearLayout>

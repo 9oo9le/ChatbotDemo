@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/user_icon"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/margin_chat_activity"
+            android:scaleType="fitXY" />
+
+        <LinearLayout 
+            android:layout_marginRight="@dimen/margin_chat_activity"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toLeftOf="@id/iv_userhead"
+            android:background="@drawable/chatto_bg"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:minHeight="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/received_message">
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="4dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/sent_voice">
+                <ImageView
+                    android:id="@+id/iv_voice"
+                    android:layout_width="@dimen/size_voice_image"
+                    android:layout_height="@dimen/size_voice_image"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="@dimen/margin_chat_activity"
+                    android:src="@drawable/icon_voice_right3"
+                    android:scaleType="fitXY" />
+                <TextView 
+                    android:layout_marginLeft="5dp"
+                    android:text="3s"
+                    android:id="@+id/tv_voice_time"
+                    android:textSize="15sp"
+                    android:textColor="#ffffff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout 
+                android:orientation="vertical"
+                android:maxWidth="210.0dip"
+                android:minWidth="50dip"
+                android:layout_height="1dp"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent" />
+            <LinearLayout 
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/contentLayout">
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/avi_sent"
+                    android:layout_marginLeft="2dp"
+                    style="@style/AVLoadingIndicatorView.Small"
+			        app:indicatorName="BallPulseIndicator"
+			        app:indicatorColor="#FFFFFF"
+                    android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"  />
+                <TextView
+                android:layout_marginTop="2dp"
+                android:gravity="left|center"
+                android:maxWidth="210.0dip"
+                android:id="@+id/tv_chatcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"
+                android:lineSpacingExtra="2dp"
+                android:textColor="#ff000000"
+                android:textSize="15sp" />
+            </LinearLayout>
+            
+        </LinearLayout>
+       
+
+     
+    </RelativeLayout>
+
+</LinearLayout>

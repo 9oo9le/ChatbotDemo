@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AIUI智能客服</string>
+    <string name="action_settings">Setting</string>
+
+    <string name="button_launch">智能客服</string>
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="button_send">发送</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_file">文件</string>
+    <string name="attach_voice_call">语音电话</string>
+    <string name="move_up_to_cancel">正在录音，请稍后...</string>
+    <string name="recoding_fail">录音失败，请重试！</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    <string name="text_ack_msg">已读</string>
+    <string name="text_delivered_msg">送达</string>
+    <string name="text_change_scence">切换业务</string>
+
+    <string name="bot_tip">hi~，您可以这样使唤我哦~</string>
+    <string name="tip_1">今天天气怎么样？</string>
+    <string name="tip_2">唱首好听的歌</string>
+    <string name="tip_3">讲个笑话</string>
+    <string name="tip_4">李白的诗</string>
+    <string name="tip_5">北京明天到上海的航班</string>
+    <string name="tip_6">红烧肉怎么做？</string>
+    <string name="tip_7">我想听最新的娱乐新闻</string>
+    <string name="tip_8">帮我设个明天6点的闹钟</string>
+</resources>

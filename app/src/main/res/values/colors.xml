@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <color name="common_top_bar_blue">#22292c</color>
+     <color name="btn_gray_normal">#c0c0c0</color>
+     <color name="back_white">#ffffff</color>
+     <color name="main_dark">#FF535353</color>
+     <color name="tip_color">#12AA39</color>
+</resources>
