@@ -23,7 +23,8 @@ public class DemoApp extends Application {
 	}
 	
 	private void initMSC() {
-		SpeechUtility.createUtility(DemoApp.this, SpeechConstant.APPID +"=598143a9");
+		将此处的123456789替换为应用对应的appid，并替换MSC.jar与libmsc.so。应用申请地址：http://aiui.xfyun.cn
+		SpeechUtility.createUtility(DemoApp.this, SpeechConstant.APPID +"=123456789");
 	}
 	
 }
